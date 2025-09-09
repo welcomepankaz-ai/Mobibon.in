@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MOBIBON — Premium Phones, Pocket Prices.</title>
+  <meta name="description" content="MOBIBON - Premium Phones, Pocket Prices. Buy new & certified second-hand phones, EMI & exchange offers. Sevoke Road, Siliguri." />
+  <style>
+    :root{
+      --accent:#ff6a00;
+      --dark:#222;
+      --muted:#666;
+      --card-bg:#fafafa;
+      --maxw:1100px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    body{ margin:0; color:var(--dark); background:#fff; line-height:1.45;}
+    .wrap{ max-width:var(--maxw); margin:0 auto; padding:18px;}
+    header{ display:flex; align-items:center; justify-content:space-between; gap:12px; padding:12px 0;}
+    .logo{ display:flex; align-items:center; gap:10px; text-decoration:none; color:var(--dark);}
+    .logo .mark{ width:44px; height:44px; background:var(--accent); color:#fff; display:flex;align-items:center;justify-content:center;border-radius:8px;font-weight:700;}
+    nav{ display:flex; gap:14px; align-items:center; font-weight:600;}
+    nav a{ color:var(--dark); text-decoration:none; font-size:14px;}
+    .hero{ display:grid; grid-template-columns:1fr 380px; gap:20px; align-items:center; margin:22px 0; }
+    .card{ background:var(--card-bg); padding:16px; border-radius:10px; box-shadow:0 6px 18px rgba(10,10,10,0.03);}
+    .hero h1{ margin:0 0 10px; font-size:28px;}
+    .hero p{ margin:0 0 14px; color:var(--muted);}
+    .btn{ background:var(--accent); color:#fff; padding:10px 14px; border-radius:8px; text-decoration:none; font-weight:700;}
+    .products{ display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; margin-top:18px;}
+    .prod{ padding:10px; border-radius:10px; background:#fff; border:1px solid #eee; text-align:left;}
+    .prod img{ width:100%; height:150px; object-fit:cover; border-radius:8px;}
+    .prod h4{ margin:8px 0 4px; font-size:16px;}
+    .prod .price{ color:var(--accent); font-weight:700;}
+    footer{ margin-top:30px; padding:18px 0; color:var(--muted); font-size:14px; border-top:1px solid #f0f0f0;}
+    .flex{ display:flex; gap:12px; align-items:center; flex-wrap:wrap;}
+    @media(max-width:820px){
+      .hero{ grid-template-columns:1fr; }
+      .hero .card{ order:2;}
+    }
+    .whatsapp{
+      position:fixed; right:18px; bottom:18px; background:#25D366; color:#fff; border-radius:50%; width:56px; height:56px; display:flex; align-items:center; justify-content:center; box-shadow:0 8px 20px rgba(0,0,0,0.2); text-decoration:none; font-size:22px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="logo" href="#">
+        <div class="mark">MB</div>
+        <div>
+          <div style="font-weight:800">MOBIBON</div>
+          <div style="font-size:12px;color:var(--muted)">Premium Phones, Pocket Prices.</div>
+        </div>
+      </a>
+      <nav>
+        <a href="#products">Products</a>
+        <a href="#finance">Finance</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="card">
+        <h1>Best Phones — New & Certified Pre-owned</h1>
+        <p>Quick EMI · Exchange offers · Warranty available. Visit our store at Sevoke Road, Siliguri or call/WhatsApp for instant quote.</p>
+        <div class="flex">
+          <a class="btn" href="#products">Shop Now</a>
+          <a href="#contact" style="color:var(--muted);text-decoration:none;font-weight:700;">Visit Store →</a>
+        </div>
+      </div>
+
+      <aside class="card" style="text-align:center;">
+        <div style="font-weight:800;font-size:18px">Store Info</div>
+        <div style="margin:8px 0;color:var(--muted)">Sevoke Road, Siliguri</div>
+        <div style="font-size:22px;font-weight:900">+91 98324 88055</div>
+        <div style="margin-top:10px"><a class="btn" href="tel:+919832488055">Call Now</a></div>
+      </aside>
+    </section>
+
+    <section id="products">
+      <h2 style="margin:8px 0;">Featured Phones</h2>
+      <div class="products">
+        <div class="prod card">
+          <img src="https://via.placeholder.com/400x300?text=Oppo+K13x" alt="Oppo K13x">
+          <h4>Oppo K13x — 6GB/128GB</h4>
+          <div style="color:var(--muted);font-size:13px">Condition: New</div>
+          <div class="price">₹12,999</div>
+        </div>
+        <div class="prod card">
+          <img src="https://via.placeholder.com/400x300?text=Oppo+Reno+13" alt="Oppo Reno 13">
+          <h4>Oppo Reno 13 — 8GB/128GB</h4>
+          <div style="color:var(--muted);font-size:13px">Condition: New</div>
+          <div class="price">₹29,999</div>
+        </div>
+        <div class="prod card">
+          <img src="https://via.placeholder.com/400x300?text=Samsung+A06" alt="Samsung A06">
+          <h4>Samsung A06 — 4GB/128GB</h4>
+          <div style="color:var(--muted);font-size:13px">Condition: New</div>
+          <div class="price">₹12,999</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="finance" style="margin-top:22px;">
+      <h2>Finance & EMI</h2>
+      <div class="card">
+        <p style="margin:0;color:var(--muted)">
+          We offer easy EMI and exchange options.<br>
+          ✔ 0% EMI on selected models<br>
+          ✔ Instant approval with minimal documents<br>
+          ✔ Exchange bonus up to ₹10,000
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:22px;">
+      <h2>Contact & Visit</h2>
+      <div class="card" style="text-align:center;">
+        <div style="font-weight:800">MOBIBON</div>
+        <div style="color:var(--muted);margin-bottom:8px;">Sevoke Road, Siliguri</div>
+        <div style="font-size:18px;font-weight:800;margin-bottom:8px;">+91 98324 88055</div>
+        <a class="btn" href="https://wa.me/919832488055?text=Hello%20MOBIBON%2C%20I%20want%20info" target="_blank">WhatsApp Us</a>
+      </div>
+    </section>
+
+    <footer style="margin-top:22px;">
+      <div style="text-align:center;color:var(--muted)">© MOBIBON — Premium Phones, Pocket Prices.</div>
+    </footer>
+  </div>
+  <a class="whatsapp" href="https://wa.me/919832488055?text=Hi%20MOBIBON%20I%20have%20a%20query" target="_blank" aria-label="WhatsApp">💬</a>
+</body>
+</html>
